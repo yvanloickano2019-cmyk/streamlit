@@ -26,6 +26,7 @@ if st.button("Calculate BMI"):
         st.warning('You are underweight')
     elif (bmi >= 18.5) and (bmi < 25):
         st.success("healthy")
+        st.balloons()
     elif (bmi >= 25) and (bmi < 30):
         st.warning('You are overweight')
     else:
